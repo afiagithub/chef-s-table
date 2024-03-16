@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { IoTimeOutline } from "react-icons/io5";
 import { AiOutlineFire } from "react-icons/ai";
-const RecipeItem = ({item}) => {
+const RecipeItem = ({item, addToCookItems}) => {
     const topIngredients = item.ingredients.slice(0, 3);
     return (
         <div>
@@ -30,7 +30,7 @@ const RecipeItem = ({item}) => {
                         </div>                        
                     </div>
                     <div className="card-actions justify-start mt-3 pl-0">
-                    <button className="btn bg-[#0BE58A] text-xl px-8 rounded-full">Want to Cook</button>
+                    <button onClick={() => addToCookItems(item)} className="btn bg-[#0BE58A] text-xl px-8 rounded-full">Want to Cook</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,8 @@ const RecipeItem = ({item}) => {
 };
 
 RecipeItem.propTypes = {
-    item: PropTypes.object.isRequired
+    item: PropTypes.object.isRequired,
+    addToCookItems: PropTypes.func
 }
 
 export default RecipeItem;

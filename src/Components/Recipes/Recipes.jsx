@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 import RecipeItem from "../RecipeItem/RecipeItem";
 
-const Recipes = () => {
+const Recipes = ({addToCookItems}) => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
@@ -10,14 +11,18 @@ const Recipes = () => {
         .then(data => setItems(data))
     })
     return (
-        <div className="mx-5 lg:mx-20 pb-5 lg:pb-8 pt-3">
+        <div className="pt-3">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 place-items-center">            
                 {
-                    items.map(item => <RecipeItem key={item.recipe_id} item={item}></RecipeItem>)                
+                    items.map(item => <RecipeItem key={item.recipe_id} item={item} addToCookItems={addToCookItems}></RecipeItem>)                
                 }
             </div>
         </div>
     );
 };
+
+Recipes.propTypes = {
+    addToCookItems: PropTypes.func
+}
 
 export default Recipes;
