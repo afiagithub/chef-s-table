@@ -1,4 +1,5 @@
 import './App.css'
+import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Header/Navbar/Navbar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div data-theme="light">
         <Navbar></Navbar>
+        <Banner></Banner>
       </div>      
     </>
   )
