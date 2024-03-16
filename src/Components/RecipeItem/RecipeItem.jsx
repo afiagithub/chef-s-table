@@ -22,7 +22,7 @@ const RecipeItem = ({item, addToCookItems}) => {
                     <div className="prep-details text-[#282828cc] mt-4 flex justify-between items-center">
                         <div className="prep-time flex gap-3 items-center">
                             <IoTimeOutline className='text-2xl'/>
-                            <p className='font-fira'>{item.preparing_time}</p>
+                            <p className='font-fira'>{item.preparing_time} minutes</p>
                         </div>
                         <div className="calorie flex gap-3 items-center">
                             <AiOutlineFire className='text-2xl'/>

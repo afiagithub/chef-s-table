@@ -16,7 +16,7 @@
         "1/2 teaspoon Salt",
         "1/4 teaspoon Pepper"
       ],
-      "preparing_time": "45 minutes",
+      "preparing_time": 45,
       "calories": "380",
       "recipe_img": "https://i.ibb.co/hLS0d7F/risotto.jpg"
     },
@@ -33,7 +33,7 @@
         "1 teaspoon Salt",
         "1/2 teaspoon Pepper"
       ],
-      "preparing_time": "30 minutes",
+      "preparing_time": 30,
       "calories": "300",
       "recipe_img": "https://i.ibb.co/k4bm7K0/salmon.jpg"
     },
@@ -56,7 +56,7 @@
         "1 tablespoon Cornstarch, dissolved in 2 tablespoons water",
         "1 tablespoon Sesame seeds, for garnish"
       ],
-      "preparing_time": "25 minutes",
+      "preparing_time": 25,
       "calories": "250",
       "recipe_img": "https://i.ibb.co/Qm2QfpX/stir-fry.jpg"
     },
@@ -79,7 +79,7 @@
         "1/2 teaspoon Pepper",
         "1/4 cup Parmesan cheese, grated"
       ],
-      "preparing_time": "50 minutes",
+      "preparing_time": 50,
       "calories": "420",
       "recipe_img": "https://i.ibb.co/w0CVfdy/sphegetti.jpg"
     },
@@ -96,7 +96,7 @@
         "1/2 teaspoon Salt",
         "1/4 teaspoon Pepper"
       ],
-      "preparing_time": "15 minutes",
+      "preparing_time": 15,
       "calories": "180",
       "recipe_img": "https://i.ibb.co/hY2tFnv/salad2.jpg"
     },
@@ -111,7 +111,7 @@
         "1/2 cup Parmesan cheese, grated",
         "1/4 cup Caesar dressing"
       ],
-      "preparing_time": "20 minutes",
+      "preparing_time": 20,
       "calories": "320",
       "recipe_img": "https://i.ibb.co/BG3hLkM/salad.jpg"
     },
@@ -134,7 +134,7 @@
         "1/2 teaspoon Salt",
         "1/4 teaspoon Pepper"
       ],
-      "preparing_time": "35 minutes",
+      "preparing_time": 35,
       "calories": "280",
       "recipe_img": "https://i.ibb.co/MMFyBH3/soup.jpg"
     },
@@ -150,7 +150,7 @@
         "1 tablespoon Lime juice",
         "1 cup Ice cubes"
       ],
-      "preparing_time": "10 minutes",
+      "preparing_time": 10,
       "calories": "200",
       "recipe_img": "https://i.ibb.co/Cz9S2Fp/smoothie.jpg"
     }

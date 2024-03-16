@@ -9,6 +9,7 @@ import Recipes from './Components/Recipes/Recipes'
 function App() {
   const [cookItems, setCookItems] = useState([]);
 
+  // Adding recipe to Want to Cook table
   const addToCookItems = (item) =>{
     const isExist = cookItems.find(cookItem => cookItem.recipe_id === item.recipe_id);
     if(!isExist){
@@ -17,6 +18,12 @@ function App() {
     else{
       toast("Already Exist");
     }    
+  }
+
+  // Deleting recipe from Want to Cook table when 'Preparing' button is clicked
+  const deleteCookItem = (id) => {
+    const newCookItems = cookItems.filter(cookItem => cookItem.recipe_id !== id);
+    setCookItems(newCookItems);
   }
 
   return (
@@ -42,7 +49,7 @@ function App() {
             </div>
             {/* Preparing Table Section */}
             <div className="cook-table">
-              <WantToCook cookItems={cookItems}></WantToCook>
+              <WantToCook cookItems={cookItems} deleteCookItem={deleteCookItem}></WantToCook>
             </div>
           </div>          
         </div>
