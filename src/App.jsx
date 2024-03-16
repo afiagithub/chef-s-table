@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { toast } from 'react-toastify';
 import WantToCook from './Components/CookItem/WantToCook'
 import Banner from './Components/Header/Banner/Banner'
 import Navbar from './Components/Header/Navbar/Navbar'
@@ -14,7 +15,7 @@ function App() {
       setCookItems([...cookItems, item]);
     }
     else{
-      alert("Already Exists");
+      toast("Already Exist");
     }    
   }
 
