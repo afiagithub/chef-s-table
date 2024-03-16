@@ -1,0 +1,158 @@
+[
+    {
+      "recipe_id": "1",
+      "name": "Savory Mushroom Risotto",
+      "short_description": "Creamy and flavorful risotto with a medley of mushrooms.",
+      "ingredients": [
+        "1 cup Arborio rice",
+        "200g Mushrooms",
+        "4 cups Vegetable broth",
+        "1/2 cup Parmesan cheese",
+        "1 Onion, finely chopped",
+        "3 cloves Garlic, minced",
+        "2 tablespoons Butter",
+        "1/4 cup White wine",
+        "1 teaspoon Thyme, dried",
+        "1/2 teaspoon Salt",
+        "1/4 teaspoon Pepper"
+      ],
+      "preparing_time": "45 minutes",
+      "calories": "380",
+      "recipe_img": "https://i.ibb.co/hLS0d7F/risotto.jpg"
+    },
+    {
+      "recipe_id": "2",
+      "name": "Grilled Lemon Herb Salmon",
+      "short_description": "Juicy salmon fillets grilled to perfection with a zesty lemon herb marinade.",
+      "ingredients": [
+        "4 pieces (6 oz each) Salmon fillets",
+        "1 Lemon, juiced",
+        "3 cloves Garlic, minced",
+        "3 tablespoons Olive oil",
+        "2 tablespoons Fresh parsley, chopped",
+        "1 teaspoon Salt",
+        "1/2 teaspoon Pepper"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "300",
+      "recipe_img": "https://i.ibb.co/k4bm7K0/salmon.jpg"
+    },
+    {
+      "recipe_id": "3",
+      "name": "Vegetable Stir-Fry",
+      "short_description": "Colorful mix of fresh vegetables stir-fried in a flavorful sauce.",
+      "ingredients": [
+        "1 head Broccoli, cut into florets",
+        "2 Bell peppers, sliced",
+        "2 Carrots, julienned",
+        "1 cup Snap peas",
+        "1 Onion, sliced",
+        "3 cloves Garlic, minced",
+        "1 tablespoon Ginger, minced",
+        "3 tablespoons Soy sauce",
+        "2 tablespoons Sesame oil",
+        "2 tablespoons Rice vinegar",
+        "1 tablespoon Brown sugar",
+        "1 tablespoon Cornstarch, dissolved in 2 tablespoons water",
+        "1 tablespoon Sesame seeds, for garnish"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": "250",
+      "recipe_img": "https://i.ibb.co/Qm2QfpX/stir-fry.jpg"
+    },
+    {
+      "recipe_id": "4",
+      "name": "Classic Spaghetti Bolognese",
+      "short_description": "Rich and hearty meat sauce served over al dente spaghetti.",
+      "ingredients": [
+        "8 oz Spaghetti",
+        "1 lb Ground beef",
+        "2 cups Tomato sauce",
+        "1 Onion, finely chopped",
+        "3 cloves Garlic, minced",
+        "2 Carrots, finely chopped",
+        "2 Celery stalks, finely chopped",
+        "1/2 cup Red wine",
+        "2 tablespoons Olive oil",
+        "2 Bay leaves",
+        "1 teaspoon Salt",
+        "1/2 teaspoon Pepper",
+        "1/4 cup Parmesan cheese, grated"
+      ],
+      "preparing_time": "50 minutes",
+      "calories": "420",
+      "recipe_img": "https://i.ibb.co/w0CVfdy/sphegetti.jpg"
+    },
+    {
+      "recipe_id": "5",
+      "name": "Caprese Salad",
+      "short_description": "Simple yet elegant salad featuring ripe tomatoes, fresh mozzarella, and basil leaves drizzled with balsamic glaze.",
+      "ingredients": [
+        "3 large Tomatoes, sliced",
+        "8 oz Fresh mozzarella, sliced",
+        "1/2 cup Basil leaves, torn",
+        "2 tablespoons Balsamic glaze",
+        "2 tablespoons Extra virgin olive oil",
+        "1/2 teaspoon Salt",
+        "1/4 teaspoon Pepper"
+      ],
+      "preparing_time": "15 minutes",
+      "calories": "180",
+      "recipe_img": "https://i.ibb.co/hY2tFnv/salad2.jpg"
+    },
+    {
+      "recipe_id": "6",
+      "name": "Chicken Caesar Salad",
+      "short_description": "Classic Caesar salad topped with grilled chicken breast strips and crunchy croutons.",
+      "ingredients": [
+        "1 Romaine lettuce, bite-sized pieces",
+        "2 Grilled chicken breast, sliced",
+        "1 cup Croutons",
+        "1/2 cup Parmesan cheese, grated",
+        "1/4 cup Caesar dressing"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": "320",
+      "recipe_img": "https://i.ibb.co/BG3hLkM/salad.jpg"
+    },
+    {
+      "recipe_id": "7",
+      "name": "Vegan Lentil Soup",
+      "short_description": "Hearty and nutritious soup made with lentils, vegetables, and aromatic spices.",
+      "ingredients": [
+        "1 cup Lentils",
+        "2 Carrots, chopped",
+        "2 Celery stalks, chopped",
+        "1 Onion, chopped",
+        "3 cloves Garlic, minced",
+        "2 Tomatoes, diced",
+        "4 cups Vegetable broth",
+        "1 teaspoon Cumin",
+        "1 teaspoon Coriander",
+        "1 teaspoon Paprika",
+        "2 Bay leaves",
+        "1/2 teaspoon Salt",
+        "1/4 teaspoon Pepper"
+      ],
+      "preparing_time": "35 minutes",
+      "calories": "280",
+      "recipe_img": "https://i.ibb.co/MMFyBH3/soup.jpg"
+    },
+    {
+      "recipe_id": "8",
+      "name": "Mango Coconut Smoothie",
+      "short_description": "Refreshing tropical smoothie with the goodness of mango and creamy coconut milk.",
+      "ingredients": [
+        "1 Mango",
+        "1 cup Coconut milk",
+        "1 Banana",
+        "2 tablespoons Honey",
+        "1 tablespoon Lime juice",
+        "1 cup Ice cubes"
+      ],
+      "preparing_time": "10 minutes",
+      "calories": "200",
+      "recipe_img": "https://i.ibb.co/Cz9S2Fp/smoothie.jpg"
+    }
+  ]
+  

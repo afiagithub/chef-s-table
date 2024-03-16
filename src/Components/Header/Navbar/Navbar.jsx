@@ -2,7 +2,7 @@ import { FiSearch } from "react-icons/fi";
 import { FaRegUserCircle } from "react-icons/fa";
 const Navbar = () => {
     return (
-        <div className="mx-5 lg:mx-14 py-5 lg:py-8">
+        <div className="mx-5 lg:mx-20 py-5 lg:py-8">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
