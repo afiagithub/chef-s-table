@@ -25,7 +25,7 @@
       "name": "Grilled Lemon Herb Salmon",
       "short_description": "Juicy salmon fillets grilled to perfection with a zesty lemon herb marinade.",
       "ingredients": [
-        "4 pieces (6 oz each) Salmon fillets",
+        "4 pieces Salmon fillets",
         "1 Lemon, juiced",
         "3 cloves Garlic, minced",
         "3 tablespoons Olive oil",
@@ -35,7 +35,7 @@
       ],
       "preparing_time": 30,
       "calories": "300",
-      "recipe_img": "https://i.ibb.co/k4bm7K0/salmon.jpg"
+      "recipe_img": "https://i.ibb.co/N72MrBY/salmon.jpg"
     },
     {
       "recipe_id": "3",
@@ -105,7 +105,7 @@
       "name": "Chicken Caesar Salad",
       "short_description": "Classic Caesar salad topped with grilled chicken breast strips and crunchy croutons.",
       "ingredients": [
-        "1 Romaine lettuce, bite-sized pieces",
+        "1 Romaine lettuce",
         "2 Grilled chicken breast, sliced",
         "1 cup Croutons",
         "1/2 cup Parmesan cheese, grated",

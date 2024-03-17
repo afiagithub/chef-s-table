@@ -1,16 +1,19 @@
 import PropTypes from 'prop-types';
 import CurrentlyCooking from './CurrentlyCooking';
 import { useState } from 'react';
+
 const WantToCook = ({cookItems, deleteCookItem}) => {
+    // useState to save 'currently cooking' items array
     const [cookingItems, setCookingItems] = useState([]);
 
+    // function to add to 'currently cooking' items array
     const addToCurrentlyCooking = (cookItem) =>{
         setCookingItems([...cookingItems, cookItem]);
         deleteCookItem(cookItem.recipe_id);
     }
 
     return (
-        <div className="w-[514px] mt-3 border-2 border-[#28282833] rounded-2xl">
+        <div className="w-[440px] mt-3 border-2 border-[#28282833] rounded-2xl">
 
             <h1 className="text-2xl font-semibold pt-8 pb-10 text-center">Want to cook: {cookItems.length}</h1>
             
@@ -42,7 +45,6 @@ const WantToCook = ({cookItems, deleteCookItem}) => {
                 </table>
                 </div>
             </div>
-
 
             <div className="currently-cooking-section">
                 <h1 className="text-2xl font-semibold pt-8 pb-10 text-center">Currently cooking: {cookingItems.length}</h1>

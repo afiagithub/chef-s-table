@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types';
 
 const CurrentlyCooking = ({cookingItems}) => {
+    // variable to save total preparation time
     let prepTime = 0;
+    // variable to save total calories
     let totCal = 0;
+
     cookingItems.forEach(cookingItem => prepTime += cookingItem.preparing_time);
     cookingItems.forEach(cookingItem => totCal += parseInt(cookingItem.calories)); 
+    
     return (
         <div className="table-section">
             <div className="overflow-x-auto">

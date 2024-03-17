@@ -33,13 +33,13 @@ function App() {
         <Banner></Banner>
 
         {/* Recipe Section */}
-        <div className='recipes-section mt-10 lg:mt-20 mx-5 lg:mx-20 pb-5 lg:pb-8'>
+        <div className='recipes-section mt-10 lg:mt-20 mx-5 lg:mx-16 pb-5 lg:pb-8'>
           {/* Recipe Section Heading */}
           <div className="recipe-heading mb-7">
             <h1 className='font-semibold text-4xl text-center mb-6'>Our Recipes</h1>
-            <p className='w-5/6 lg:w-3/5 mx-auto text-center text-[#150b2bb3] leading-relaxed'>Lorem ipsum dolor sit amet 
-            consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur 
-            elementum mauris aenean neque. </p>
+            <p className='w-5/6 lg:w-3/5 mx-auto text-center text-[#150b2bb3] leading-relaxed'>Our courses cover 
+            from basic cooking techniques like Sautéing, Roasting, and Braising to advanced cooking techniques like 
+            Sous Vide, Fermentation, and more</p>
           </div>
           {/* Recipe Section Content */}
           <div className="recipe-content flex flex-col lg:flex-row justify-between items-center lg:items-start">

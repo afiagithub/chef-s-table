@@ -2,7 +2,7 @@ import { FiSearch } from "react-icons/fi";
 import { FaRegUserCircle } from "react-icons/fa";
 const Navbar = () => {
     return (
-        <div className="mx-5 lg:mx-20 py-5 lg:py-8">
+        <div className="mx-5 lg:mx-16 py-5 lg:py-8">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -29,8 +29,9 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <div className="form-control mr-4 relative">
                         <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Search" 
-                        className="input input-bordered w-48 md:w-auto rounded-full bg-[#150b2b0d] border-none" />
-                        <FiSearch className="absolute top-3 left-5 text-2xl text-[#150b2bb3]" />
+                        className="hidden lg:flex input input-bordered w-48 md:w-auto 
+                        rounded-full bg-[#150b2b0d] border-none" />
+                        <FiSearch className="hidden lg:flex absolute top-3 left-5 text-2xl text-[#150b2bb3]" />
                     </div>
                     <a className="btn rounded-full bg-[#0BE58A]"><FaRegUserCircle className="text-2xl" /></a>
                 </div>
